@@ -1,0 +1,585 @@
+body {
+    border: solid 1px black;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 880px;
+    height: 1386px;
+}
+
+.topBox {
+    position: absolute;
+    width: 892px;
+    height: 61px;
+}
+
+.top-1 {
+    position: absolute;
+    left: 0;
+    width: 110px;
+    height: 61px;
+    background-color: rgb(201, 73, 73);
+}
+
+.top-1 span {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "SimHei";
+}
+
+.top-2 {
+    width: 110px;
+    height: 61px;
+    position: absolute;
+    right: 0;
+}
+
+.top-2 span {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    font-size: 12px;
+    color: #d45d5c;
+    font-family: "SimHei";
+}
+
+.line-1 {
+    position: absolute;
+    top: 62px;
+    width: 892px;
+    height: 2px;
+    background-color: #93818c;
+    margin-bottom: 30px;
+}
+
+.guodu {
+    position: absolute;
+    top: 64px;
+    width: 892px;
+    height: 30px;
+}
+
+.mainPho {
+    position: absolute;
+    top: 94px;
+    width: 641px;
+    height: 301px;
+    background-color: rgb(45, 197, 151);
+    background-image: url(images/android/任务6.png);
+}
+
+.left {
+    position: absolute;
+    left: 0;
+    width: 191px;
+    height: 301px;
+    background: rgba(247, 243, 243, 0.6);
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    width: 191px;
+    height: 301px;
+    background: rgba(247, 243, 243, 0.6);
+}
+
+.firstFont {
+    border-top: solid 2px #cc8091;
+    position: absolute;
+    padding-top: 10px;
+    margin-left: 689px;
+    top: 94px;
+    width: 203px;
+    height: 291px;
+}
+
+.one {
+    width: 100%;
+    height: 60px;
+    line-height: 28px;
+}
+
+.one span {
+    font-size: 24px;
+    font-family: "Microsoft JhengHei";
+    color: #000000;
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+
+.two {
+    width: 100%;
+}
+
+.two p {
+    float: left;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 6px;
+    font-style: oblique;
+    color: #676767;
+    font-family: "KaiTi";
+}
+
+.clear {
+    clear: both;
+}
+
+.three {
+    position: absolute;
+    top: 101px;
+    left: -17px;
+    width: 100%;
+}
+
+.three p {
+    font-size: 116px;
+    margin: 0 0 0 0;
+    font-style: oblique;
+    color: #75b86b;
+    font-family: "Microsoft JhengHei";
+}
+
+.four {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.four-1 {
+    position: absolute;
+    bottom: -10px;
+    font-size: 55px;
+    font-family: "Microsoft JhengHei";
+    color: #cc8091;
+}
+
+.four-2 {
+    float: right;
+    margin-top: 24px;
+    margin-right: 50px;
+}
+
+.f1 {
+    position: absolute;
+    bottom: 10px;
+    font-size: 21px;
+    color: #cc8091;
+    font-family: "Microsoft JhengHei";
+}
+
+.f2 {
+    font-size: 12px;
+    color: #cc8091;
+    font-family: "Microsoft JhengHei";
+}
+
+.midbox {
+    position: absolute;
+    top: 420px;
+    width: 641px;
+    height: 200px;
+}
+
+.Mone {
+    float: left;
+    width: 30%;
+    height: 200px;
+    margin-right: 32px;
+}
+
+.tit1 {
+    font-size: 16px;
+    margin: 0 0 0 0;
+    text-decoration: underline;
+    color: rgb(73, 143, 94);
+}
+
+.word1 {
+    font-size: 12px;
+}
+
+.Mtwo {
+    float: left;
+    width: 30%;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.tit2 {
+    font-size: 16px;
+    margin: 0 0 0 0;
+    text-decoration: underline;
+    color: #d2994f;
+}
+
+.word2 {
+    font-size: 12px;
+    font-family: "Microsoft JhengHei";
+}
+
+.Mthree {
+    float: right;
+    width: 30%;
+    height: 200px;
+
+}
+
+.tit3 {
+    width: 100%;
+    height: 100px;
+}
+
+.word3 {
+    width: 100%;
+    height: 66px;
+    padding-top: 14px;
+}
+
+.tit31 {
+    font-size: 16px;
+    margin: 0 0 0 0;
+    text-decoration: underline;
+    color: #cc7680;
+}
+
+.word31 {
+    font-size: 12px;
+    line-height: 10px;
+    font-family: "Microsoft JhengHei";
+}
+
+.word32 {
+    font-size: 12px;
+    color: #cd4a48;
+    opacity: 0.7;
+    font-style: oblique;
+    font-family: "Microsoft JhengHei";
+}
+
+.guodu2 {
+    width: 780px;
+    height: 50px;
+    position: absolute;
+    top: 623px;
+}
+
+.photo2 {
+    position: absolute;
+    top: 675px;
+    margin-left: 428px;
+    width: 458px;
+    height: 275px;
+    background-image: url(images/android/任务六图二.png);
+}
+
+.logo2 {
+    width: 424px;
+    height: 51px;
+    background-color: rgba(66, 65, 65, 0.6);
+    margin-top: 214px;
+    padding: 8px 0 2px 34px;
+}
+
+.logo21 {
+    width: 240px;
+    height: 40px;
+    border-left: solid 3px #72b16a;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+.logo211 {
+    font-size: 26px;
+    color: #ffffff;
+    font-family: "Microsoft JhengHei";
+    margin-right: 10px;
+}
+
+.logo212 {
+    font-size: 12px;
+    color: #72b16a;
+    font-family: "Microsoft JhengHei";
+    font-style: italic;
+}
+
+.logo {
+    position: absolute;
+    top: 675px;
+    width: 415px;
+    height: 600px;
+}
+
+.uplogo {
+    width: 100%;
+    height: 100px;
+}
+
+.u1 {
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    font-size: 72px;
+    color: #f5e327;
+    font-style: italic;
+    font-family: "SimHei";
+    margin: 0px;
+}
+
+.u2 {
+    font-size: 42px;
+    font-family: "KaiTi";
+    position: absolute;
+    top: 20px;
+    right: 70px;
+}
+
+.u3 {
+    font-size: 42px;
+    font-family: "KaiTi";
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+
+.midlogo {
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    border-bottom: solid 2px #11456b;
+    margin-bottom: 10px;
+}
+
+.underlogo {
+    float: left;
+    width: 415px;
+    height: 423px;
+}
+
+.u4 {
+    font-size: 33px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 6px;
+    color: #11456b;
+    font-family: "STHeiti";
+}
+
+.uplogo p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 6px;
+    color: #11456b;
+}
+
+.p1 {
+    text-indent: 2em;
+}
+
+.secondFont {
+    position: absolute;
+    top: 965px;
+    margin-left: 428px;
+    width: 459px;
+    height: 318px;
+    background-color: rgb(238, 238, 214);
+}
+
+.underBox {
+    position: absolute;
+    top: 1326px;
+    width: 892px;
+    height: 61px;
+    border-top: solid 1px #93818c;
+}
+
+.bigtext {
+    float: left;
+    width: 75px;
+    height: 75px;
+    padding: 5px;
+    font-size: 70px;
+    color: #f5e327;
+    margin-bottom: 10px;
+}
+
+.underlogo p {
+    font-size: 12px;
+    color: #767777;
+    font-family: "SimSun";
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-right: 6px;
+    line-height: 20px
+}
+
+.img1 {
+    float: right;
+    padding: 10px 0 10px 10px;
+}
+
+.topfont {
+    margin-top: 30px;
+    margin-bottom: 18px;
+    position: relative;
+    padding-left: 50px;
+    width: 409px;
+    height: 110px;
+}
+
+.leftfont {
+    width: 260px;
+    height: 160px;
+    background-color: rgb(213, 93, 92);
+}
+
+.top1 {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "SimSun";
+}
+
+.tan1 {
+    position: absolute;
+    top: 2px;
+    left: 29px;
+    height: 0;
+    width: 0;
+    border: 7px solid;
+    border-color: transparent transparent rgb(15, 70, 103) transparent;
+}
+
+.tan2 {
+    position: absolute;
+    top: 73px;
+    left: 29px;
+    height: 0;
+    width: 0;
+    border: 7px solid;
+    border-color: transparent transparent rgb(15, 70, 103) transparent;
+}
+
+.tan3 {
+    position: absolute;
+    top: 38px;
+    left: 29px;
+    height: 0;
+    width: 0;
+    border: 7px solid;
+    border-color: transparent transparent rgb(15, 70, 103) transparent;
+}
+
+.top2 {
+    font-size: 12px;
+    color: #5a5b5b;
+    font-style: italic;
+}
+
+.l1 {
+    width: 65px;
+    height: 86px;
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 110px;
+    font-family: "Microsoft JhengHei";
+}
+
+.bone {
+    position: absolute;
+    top: 193px;
+    left: 78px;
+    width: 2px;
+    height: 86px;
+    background-color: #ffffff;
+}
+
+.l2 {
+    float: right;
+    width: 170px;
+    height: 44px;
+}
+
+.l22 p {
+    float: left;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 6px;
+    line-height: 10px;
+    color: #ffffff;
+    font-family: "KaiTi";
+}
+
+.l3 {
+    position: absolute;
+    top: 195px;
+    left: 86px;
+    width: 170px;
+    height: 44px;
+    font-size: 18px;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.rightfont {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 160px;
+    height: 140px;
+}
+
+.r1 p {
+    float: left;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 6px;
+    line-height: 10px;
+    color: #5a5b5b;
+    font-family: "KaiTi";
+}
+
+.r12 {
+    float: left;
+    width: 70px;
+    margin-left: -34px;
+    margin-top: -23px;
+    height: 30px;
+    float: left;
+    color: #d45d5c;
+    font-family: "SimSun";
+    font-size: 72px;
+}
+
+.r13 {
+    float: right;
+    width: 70px;
+    margin-left: 100px;
+    margin-top: -20px;
+    height: 30px;
+    float: left;
+    color: #d45d5c;
+    font-family: "SimSun";
+    font-size: 72px;
+}
+
+.last {
+    float: right;
+}
+
+.last span {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 12px;
+    color: #d45d5c;
+    font-family: "SimHei";
+}

@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/android/作业2背景.jpg);
+    background-repeat: repeat;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.mainBody {
+    margin-top: 100px;
+}
+
+.rightBody {
+    float: right;
+    width: 560px;
+    height: 2000px;
+    margin-right: 30px;
+}
+
+.leftBody {
+    margin-right: 550px;
+    margin-bottom: 20px;
+}
+
+.firstBox {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(59, 55, 55);
+    position: fixed;
+    top: 0;
+}
+
+.underBox {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(59, 55, 55);
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+
+.underBox span {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+}
+
+.secondBox {
+    padding-top: 10px;
+    padding-left: 30px;
+    float: left;
+    height: 60px;
+    width: 300px;
+}
+
+.thirdBox {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    height: 40px;
+    width: 420px;
+}
+
+.fourthBox {
+    margin: 0 30px 30px 30px;
+    padding: 20px;
+    background: rgba(247, 243, 243, 0.6);
+}
+
+.fourthBox img {
+    width: 30%;
+}
+
+.firstUl li {
+    color: rgb(133, 216, 153);
+    float: left;
+    margin-left: 20px;
+}
+
+.firstUl li span {
+    color: rgb(238, 231, 231);
+}
+
+.fifthBox {
+    margin: 0 30px 30px 30px;
+    padding: 20px;
+    background: rgba(247, 243, 243, 0.6);
+}
+
+.secondUl {
+    margin: 20px;
+}
+
+.secondUl li {
+    margin: 8px;
+    list-style: none;
+}
+
+.fifthBox img {
+    width: 30%;
+}
+
+.sixthBox {
+    margin: 0 30px 30px 30px;
+    padding: 20px;
+    background: rgba(247, 243, 243, 0.6);
+}
+
+.photoBox {
+    float: left;
+    border: 1px solid rgb(2, 15, 19);
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 10px;
+    width: 12%;
+    height: 12%;
+    background-color: rgb(241, 237, 237);
+}
+
+.photoBox-1 {
+    font-size: 100%;
+    margin-left: 18%;
+    margin-bottom: 10%;
+}
+
+.photoBox img {
+    margin-left: 10%;
+    width: 80%;
+}
+
+.clear {
+    clear: both;
+}
+
+.seventhBox {
+    margin: 0 30px 30px 30px;
+    padding: 20px;
+    background: rgba(247, 243, 243, 0.6);
+}
+
+.ol1 {
+    margin: 20px;
+}
+
+.ol1 li {
+    font-size: 22px;
+    margin: 8px;
+}
+
+table {
+    width: 80%;
+}
+
+#table td,
+th {
+    padding-left: 10px;
+}
+
+th {
+    text-align: left;
+    background-color: rgb(41, 39, 39);
+    color: white;
+}
+
+.c1 {
+    background-color: #fff;
+}
+
+.c2 {
+    background-color: rgb(87, 84, 84);
+}
+
+.input1 {
+    width: 170px;
+    height: 25px;
+    line-height: 40px;
+    padding-left: 5px;
+    border: 1px solid #d0d6d9;
+    background: #F9F9F9;
+}
+
+.td1 {
+    height: 40px;
+    width: 180px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+table {
+    padding: 0px;
+    margin: 0px;
+}
+
+td {
+    padding-right: 20px;
+    margin: 10px;
+}
+
+td span {
+    color: rgb(243, 242, 239);
+}
+
+.reg {
+    margin-left: 40px;
+    width: 520px;
+    height: 660px;
+    padding-top: 20px;
+    background: rgba(247, 243, 243, 0.6);
+}
+
+.reg form {
+    margin-top: 30px;
+    padding: 0 50px;
+}
+
+.btn-red {
+    margin: 20px 0px;
+}
+
+.reg-btn {
+    margin-left: 10%;
+    width: 80%;
+    height: 50px;
+    background: #2C689B;
+    border-color: #2C689B;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.eighthBox-11 {
+    height: 50px;
+    border-left: solid 10px rgb(126, 124, 124);
+    font-size: 20px;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+}

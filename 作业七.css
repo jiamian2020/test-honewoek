@@ -1,0 +1,825 @@
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    min-width: 1280px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    height: 57.5px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 9999;
+}
+
+.logo {
+    float: left;
+    margin: 13px 13px 0 57px;
+    height: 31px;
+    width: 150px;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.img1 {
+    margin: 5px;
+}
+
+.nav {
+    position: fixed;
+    right: 52px;
+    padding: 0;
+    margin: 16.9px 0 0 0;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    display: block;
+    height: 37px;
+    padding: 0 14px;
+    font-size: 14px;
+    color: rgb(164, 166, 171);
+}
+
+.nav ul li a:hover {
+    color: rgb(172, 79, 79);
+    border-bottom: 2px solid rgb(172, 79, 79);
+}
+
+.mainBody {
+    margin: 0 auto;
+    padding-top: 57.5px;
+    width: 1280px;
+    height: 4200px;
+}
+
+.oneBody {
+    width: 1280px;
+    height: 690px;
+    background-image: url(images/android/drawable-xhdpi/图一.png);
+}
+
+.word1 {
+    position: relative;
+    top: 230px;
+    left: 116px;
+    font-size: 60px;
+    font-family: "Microsoft JhengHei";
+    color: #ffffff;
+    z-index: 9;
+}
+
+.word2 {
+    position: relative;
+    top: 238px;
+    left: 124px;
+    z-index: 9;
+    width: 302px;
+    height: 57px;
+    font-size: 21px;
+    font-family: "Microsoft JhengHei";
+    color: #ffffff;
+}
+
+.button1 {
+    position: relative;
+    top: 302px;
+    left: 126px;
+    z-index: 9;
+    width: 332px;
+    height: 66px;
+    background-color: rgb(231, 79, 77);
+    font-size: 30px;
+    font-family: "Microsoft JhengHei";
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+
+.twoBody {
+    width: 1280px;
+    height: 250px;
+    background-color: #ffffff;
+}
+
+.box1 {
+    float: left;
+    height: 100%;
+    width: 320px;
+}
+
+.box1 img {
+    position: relative;
+    top: 45px;
+    left: 145px;
+    z-index: 9;
+}
+
+.box2 {
+    position: relative;
+    top: 91px;
+    z-index: 9;
+    background-color: #ffffff;
+    width: 310px;
+    height: 50px;
+    border-right: 2px solid rgb(161, 162, 162);
+    font-size: 14px;
+    font-family: "SimHei";
+    color: rgb(161, 162, 162);
+    text-align: center;
+}
+
+.threeBody {
+    position: relative;
+    width: 1280px;
+    height: 360px;
+    background-color: rgb(237, 237, 236);
+}
+
+.threeBody img {
+    position: relative;
+    top: 89px;
+    left: 595px;
+    z-index: 9;
+}
+
+.word3 {
+    position: relative;
+    top: 119px;
+    left: 212px;
+    z-index: 9;
+    font-size: 53.59px;
+    font-style: "SimHei";
+    color: rgb(161, 161, 161);
+}
+
+.fourBox {
+    width: 1280px;
+    height: 341px;
+    background-image: url(images/android/drawable-xhdpi/看地图.png);
+}
+
+.bc {
+    position: relative;
+    z-index: 8;
+    width: 1280px;
+    height: 341px;
+    background-color: rgba(190, 78, 72, 0.2);
+}
+
+.word4 {
+    position: relative;
+    top: 53px;
+    left: 501px;
+    z-index: 9;
+    font-size: 21px;
+    font-family: "Microsoft JhengHei";
+    color: #ffffff;
+}
+
+.line {
+    position: relative;
+    top: 63px;
+    left: 596px;
+    z-index: 9;
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+}
+
+.word5 {
+    position: relative;
+    top: 79px;
+    left: 447px;
+    z-index: 9;
+    font-size: 12px;
+    font-family: "Microsoft JhengHei";
+    color: #ffffff;
+}
+
+.fourBox select {
+    width: 238px;
+    height: 35px;
+    font-size: rgb(161, 161, 161);
+    outline: none;
+    padding: 0;
+    margin-right: 28px;
+}
+
+.fourBox select:focus option:checked {
+    color: #ffffff;
+    background-color: rgb(231, 79, 77);
+}
+
+.sel {
+    position: relative;
+    top: 125px;
+    left: 115px;
+    z-index: 9;
+    width: 1055px;
+    height: 40px;
+}
+
+.sel input {
+    width: 235px;
+    height: 36px;
+    background-color: rgb(231, 79, 77);
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Microsoft JhengHei";
+    letter-spacing: 20px;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sixBox {
+    width: 100%;
+    height: 606px;
+    background-color: rgb(247, 247, 247);
+}
+
+.photo1 {
+    position: relative;
+    top: 138px;
+    left: 156px;
+    z-index: 9;
+    width: 1029px;
+    height: 400px;
+}
+
+.photo3 {
+    float: left;
+    height: 100%;
+    width: 219px;
+    margin-right: 36px;
+}
+
+.photo4 {
+    width: 202px;
+    height: 330px;
+    padding: 12px 8px 0 8px;
+    background-color: #fff;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.word6 {
+    margin: 10px 0 10px 0;
+    height: 51px;
+    width: 100%;
+    text-align: center;
+}
+
+.two {
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: "Microsoft JhengHei";
+    color: rgb(161, 161, 161);
+}
+
+.sevenBox {
+    width: 100%;
+    height: 567px;
+}
+
+.sevOne {
+    float: left;
+    width: 851px;
+    height: 567px;
+    background-image: url(images/android/drawable-xhdpi/图七.png);
+}
+
+.sevTwo {
+    float: left;
+    height: 567px;
+    width: 425px;
+    background-color: #ffffff;
+}
+
+.sevOneword1 {
+    position: relative;
+    top: 123px;
+    left: 353px;
+    z-index: 9;
+    font-size: 49.47px;
+    font-family: "Microsoft JhengHei";
+    color: #ffffff;
+}
+
+.sevOneword2 {
+    position: relative;
+    top: 77px;
+    left: 241px;
+    z-index: 9;
+    font-size: 157.79px;
+    font-family: "Microsoft JhengHei";
+    color: #ffffff;
+}
+
+.sevOneword3 {
+    position: relative;
+    top: 77px;
+    left: 16px;
+    z-index: 9;
+    font-size: 21.91px;
+    font-family: "Microsoft JhengHei";
+    color: #ffffff;
+    text-align: center;
+}
+
+.ace {
+    position: relative;
+    top: 267px;
+    left: -50px;
+    z-index: 9;
+    width: 0;
+    height: 0;
+    border: 25px solid;
+    border-color: transparent #ffffff transparent transparent;
+}
+
+.sevTwoword1 {
+    position: relative;
+    top: 106px;
+    left: 162px;
+    z-index: 9;
+    font-size: 21.91px;
+}
+
+.num {
+    color: rgb(231, 79, 77);
+}
+
+.sevTwoword2 {
+    position: relative;
+    top: 128px;
+    left: 70px;
+    z-index: 9;
+    width: 294px;
+    height: 107px;
+}
+
+.sevTwoword2 p {
+    font-size: 12px;
+    font-style: "SimSun";
+    margin: 0;
+    padding: 0;
+    line-height: 29px;
+    color: rgb(161, 161, 161);
+}
+
+.button2 {
+    width: 107px;
+    height: 33px;
+    border: none;
+    outline: none;
+    background-color: rgba(7, 7, 7, 0);
+    color: rgb(231, 79, 77);
+}
+
+.button3 {
+    position: relative;
+    top: 185px;
+    left: 159px;
+    z-index: 9;
+    width: 107px;
+    height: 33px;
+    background-color: rgba(7, 7, 7, 0);
+    border: 1.5px solid rgb(231, 79, 77);
+}
+
+.yuan {
+    position: relative;
+    top: 220px;
+    left: 178px;
+    z-index: 9;
+    width: 109px;
+    height: 14px;
+}
+
+.yuan1 {
+    float: left;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: rgb(161, 161, 161);
+}
+
+.yuan2 {
+    float: left;
+    width: 11px;
+    height: 11px;
+    border: 1px solid rgb(161, 161, 161);
+    ;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: #ffffff;
+}
+
+.eightBox {
+    width: 100%;
+    height: 520px;
+    background-color: rgb(80, 197, 201);
+}
+
+.eigBox1 {
+    float: left;
+    width: 426px;
+    height: 520px;
+    background-color: rgb(231, 79, 77);
+}
+
+.eigBox2 {
+    float: left;
+    width: 426px;
+    height: 520px;
+    background-color: #ffffff;
+}
+
+.eigBox3 {
+    float: left;
+    width: 428px;
+    height: 520px;
+    background-image: url(images/android/drawable-xhdpi/图片八.png);
+}
+
+.eigBox3-1 {
+    width: 428px;
+    height: 520px;
+    background-color: rgba(7, 7, 7, 0.4);
+}
+
+.eigword1 {
+    position: relative;
+    top: 129px;
+    left: 0px;
+    z-index: 9;
+    font-size: 21px;
+    font-family: "SimHei";
+    color: #ffffff;
+    text-align: center;
+}
+
+.line2 {
+    position: relative;
+    top: 152px;
+    left: 192px;
+    z-index: 9;
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+}
+
+.button5 {
+    width: 175px;
+    height: 44px;
+    border: none;
+    outline: none;
+    font-size: 21px;
+    background-color: rgba(7, 7, 7, 0);
+    color: #ffffff;
+}
+
+.button4 {
+    position: relative;
+    top: 185px;
+    left: 124px;
+    z-index: 9;
+    width: 175px;
+    height: 44px;
+    background-color: rgba(7, 7, 7, 0);
+    border: 1.5px solid #ffffff;
+}
+
+.eigword2 {
+    position: relative;
+    top: 129px;
+    left: 0px;
+    z-index: 9;
+    font-size: 21px;
+    font-family: "SimHei";
+    text-align: center;
+}
+
+.line3 {
+    position: relative;
+    top: 152px;
+    left: 192px;
+    z-index: 9;
+    width: 30px;
+    height: 3px;
+    background-color: rgb(231, 79, 77);
+}
+
+.button6 {
+    width: 175px;
+    height: 44px;
+    border: none;
+    outline: none;
+    font-size: 21px;
+    background-color: rgba(7, 7, 7, 0);
+    color: rgb(231, 79, 77);
+}
+
+.button7 {
+    position: relative;
+    top: 185px;
+    left: 124px;
+    z-index: 9;
+    width: 175px;
+    height: 44px;
+    background-color: rgba(7, 7, 7, 0);
+    border: 1.5px solid rgb(231, 79, 77);
+}
+
+.ace2 {
+    position: relative;
+    top: 267px;
+    left: 0px;
+    z-index: 9;
+    width: 0;
+    height: 0;
+    border: 25px solid;
+    border-color: transparent transparent transparent #ffffff;
+}
+
+.nineBox {
+    position: relative;
+    width: 100%;
+    height: 749px;
+    background-color: #ffffff;
+}
+
+.nineWord1 {
+    position: absolute;
+    top: 117px;
+    left: 431px;
+    z-index: 12;
+    width: 427px;
+    height: 120px;
+    text-align: center;
+}
+
+.nineWord1 div {
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 21px;
+}
+
+.line4 {
+    position: relative;
+    top: -10px;
+    left: 192px;
+    z-index: 9;
+    width: 30px;
+    height: 3px;
+    background-color: rgb(231, 79, 77);
+}
+
+.nineWord1 p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    color: rgb(161, 161, 161);
+}
+
+.nineBody {
+    position: relative;
+    top: 300px;
+    left: 120px;
+    z-index: 9;
+    width: 1050px;
+    height: 300px;
+}
+
+.nineBody1 {
+    float: left;
+    width: 325px;
+    height: 300px;
+    margin-right: 30px;
+
+}
+
+.nineBody2 {
+    float: left;
+    width: 695px;
+    height: 300px;
+}
+
+.NB11 {
+    font-size: 14px;
+    font-family: "SimSun";
+    margin-bottom: 20px;
+}
+
+.NB12 {
+    font-size: 12px;
+    font-family: "SimSun";
+    line-height: 20px;
+    margin-bottom: 50px;
+    color:rgb(161, 161, 161);
+}
+
+.arrow2 {
+    position: absolute;
+    font-size: 12px;
+    top: 379px;
+    left: 369px;
+    z-index: 15;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(161, 161, 161);
+}
+
+.arrow1 {
+    float: left;
+    transform: rotate(90deg);
+    
+}
+
+.arrow3 {
+    float: left;
+}
+
+.arrow4 {
+    position: absolute;
+    top: 503px;
+    left: 369px;
+    z-index: 10;
+    height: 20px;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    color: rgb(161, 161, 161);
+}
+
+.arrow5 {
+    position: absolute;
+    top: 570px;
+    left: 369px;
+    z-index: 10;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: rgb(161, 161, 161);
+}
+
+.inpUse{
+    float: left;
+    width: 311px;
+    height: 41px;
+    background-color: rgb(237,236,238);
+    color: #231815;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.dream{
+    float: left;
+    width: 652px;
+    height: 111px;
+    background-color: rgb(237,236,238);
+    color: #231815;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.button8{
+    float: left;
+    width: 662px;
+    height: 41px;
+    background-color: rgb(237,236,238);
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-family: "SimHei";
+    margin-top: 10px;
+}
+
+.tenBody{
+    position: relative;
+    width: 1280px;
+    height: 416px;
+    background-color: rgb(50,53,62);
+}
+
+.tenWord1 {
+    position: absolute;
+    top: 70px;
+    left: 431px;
+    z-index: 12;
+    width: 500px;
+    height: 120px;
+    text-align: center;
+}
+
+.tenWord1 div {
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 21px;
+    color: #ffffff;
+}
+
+.tenWord1 p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.search {
+    position: absolute;
+    top: 177px;
+    left: 431px;
+    z-index: 12;
+    width: 600px;
+    height: 50px;
+    padding: 10px 0;
+}
+
+.search input {
+    float: left;
+    width: 390px;
+    height: 40px;
+    border: 1px solid rgba(87, 78, 78);
+    border-right: 0;
+    color: #bfbfbf;
+    font-size: 14px;
+    padding-left: 30px;
+    outline: none;
+}
+
+.b1 {
+    float: left;
+    width: 100px;
+    height: 40px;
+    background-color: rgba(111,113,120);
+    color:white;
+    font-size:18px;
+    border: 0;
+    outline: none;
+}
+
+.lastImg {
+    position: absolute;
+    top: 271px;
+    left: 587px;
+    z-index: 12;
+    width: 245px;
+    height: 33px;
+}
+
+.lastImg img {
+    margin-right: 20px;
+}
+
+.lastWord {
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    font-size: 12px;
+    font-style: "SimSun";
+    color: #ffffff;
+}
+
+.lastA {
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+    font-size: 12px;
+    font-style: "SimSun";
+    color: #ffffff;
+}
+
+.lastA a {
+    color:rgb(250, 250, 252)
+}
+ 
